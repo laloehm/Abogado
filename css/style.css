@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #bfbfbf;
+}
+
+body {
+    background: #000;
+}
+
+.row {
+    margin: 0;
+}
+
+image {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: #bfbfbf;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    width: 80%;
+    margin: 40px auto 20px;
+}
+
+.presentacion .contact img {
+    width: 70px;
+}
+
+.presentacion .contact a {
+    display: block;
+    text-align: center;
+}
+
+.presentacion .contact a:hover {
+    transform: scale(1.1);
+}
+
+.presentacion .contact .col-4 {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #bfbfbf;
+}
+
+.servicios .col-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.servicios img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.servicios h3 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contacto a {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+.contacto a img {
+    width: 50px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a.d-ecard {
+    background: #ad8a1f;
+    color: #000;
+    padding: 10px;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+.contacto .col-md-4 {
+    border-radius: 30px 0 30px 0;
+    background: #ad8a1f;
+    padding: 2rem;
+}
+
+.contacto .col-md-4 p {
+    text-align: center;
+    margin: 20px 0;
+    background: black;
+    color: #bfbfbf;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (min-width: 1024px) {
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 50%;
+        margin: 50px auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .servicios h3 {
+        text-align: center;
+    }
+
+    .servicios img {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    .presentacion .contact .col-4 {
+        margin: 40px 0;
+    }
+
+    .presentacion .contact img {
+        width: 100px;
+    }
+
+    .servicios .col-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0;
+    }
+}
